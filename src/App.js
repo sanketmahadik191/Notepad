@@ -8,9 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-   
+  const storedNotes = localStorage.getItem("notes");
   // to store notes
-   const [notes ,setNotes] = useState(JSON.parse(localStorage.notes) || []);
+   const [notes ,setNotes] = useState(storedNotes ? JSON.parse(storedNotes) : []);
 
    const [activeNote ,setActiveNote] = useState (false);
 

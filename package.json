@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sanketmahadik191.github.io/Notepad",
-  "name": "Notepad By Using React",
+  "homepage": "https://sanketmahadik191.github.io/Notepad/",
+  "name": "notepad",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
